@@ -1,5 +1,5 @@
-
 const toggle = document.querySelector(".menu-icon");
+const right = document.querySelector(".right");
 const navLinks = document.querySelectorAll(".nav-link");
 
 navLinks.forEach((link) => {
@@ -8,8 +8,11 @@ navLinks.forEach((link) => {
     this.classList.add("active");
   });
 });
-
+let toggleValues = false;
 toggle.addEventListener("click", () => {
-  console.log("click toggle");
+  right.classList.add("activevalue");
+  toggleValues = !toggleValues;
+  if (!toggleValues) {
+    right.classList.remove("activevalue");
+  }
 });
-
