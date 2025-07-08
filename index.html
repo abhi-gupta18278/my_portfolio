@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1454/1454827.png">
+    <link rel="icon" href="./Assets/my-avatar.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             </div>
             <div class="menu-icon" aria-label="Menu">☰</div>
             <div class="right">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link active" href="#home">Home</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#project">Projects</a>
                 <a class="nav-link" href="#contact">Contact</a>
@@ -38,7 +38,7 @@
             <div>A passionate</div>
             <div class="typing-container"><span id="element"></span></div>
             <div class="button">
-                <a href="https://github.com/abhi-gupta18278/my_resume/blob/main/Abhishek%20Resume.pdf?raw=true"
+                <a href="https://github.com/abhi-gupta18278/My_resume/blob/main/Abhishek%20Resume.pdf?raw=true"
                     target="_blank">Download Resume</a>
                 <a href="https://github.com/abhi-gupta18278" target="_blank">Visit GitHub</a>
             </div>
@@ -246,6 +246,13 @@
             </div>
         </div>
     </section>
+    <!-- <section>
+        <div class="tech">
+            <img src="./Assets/html .png" alt="">
+            <img src="./Assets/css-3.png" alt="">
+            <img src="./Assets/java-script.png" alt="">
+        </div>
+    </section> -->
     <section class="contact" id="contact">
         <div class="titles">
             <p>Get in Touch</p>
@@ -279,7 +286,7 @@
             <div class="right-footer">
                 <p>Support: <a href="mailto:abhigupta18278@gmail.com"><i class="fa-regular fa-envelope"></i>
                         abhigupta18278@gmail.com</a></p>
-                <p>Contact: <button id="call"><i class="fa-solid fa-phone"></i> +91 9115365380</button></p>
+                <p>Contact: <a href="tel:+91 9115365380"><button id="call"><i class="fa-solid fa-phone"></i> +91 9115365380</button></p></a>
             </div>
         </div>
     </footer>
@@ -312,7 +319,7 @@
       "template_hv5b0rc",    
       this
     ).then(() => {
-      alert("We are contact with you shortly");
+      alert("Your Welcome ! We are contact with us shortly");
       form.reset();
     }).catch((error) => {
       console.error("Failed to send message:", error);
