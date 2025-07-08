@@ -546,6 +546,7 @@ footer {
   .activevalue {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     font-size: 5px;
 
     background: #1e293b;
