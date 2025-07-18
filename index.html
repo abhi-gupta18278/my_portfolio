@@ -312,14 +312,14 @@
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    console.log("hii this the testing");
+    // console.log("hii this the testing");
 
     emailjs.sendForm(
       "service_33rcjfu",     
       "template_hv5b0rc",    
       this
     ).then(() => {
-      alert("Your Welcome ! We are contact with us shortly");
+      alert("Thank you for connecting with us!");
       form.reset();
     }).catch((error) => {
       console.error("Failed to send message:", error);
