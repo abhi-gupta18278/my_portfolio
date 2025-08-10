@@ -107,11 +107,11 @@ nav {
 .main {
   display: flex;
   align-items: center;
-  padding: 6rem 2rem;
-  max-width: 1200px;
+  padding: 2rem 2rem;
+  max-width: 1194px;
   margin: auto;
   gap: 2rem;
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 .main-left {
@@ -553,7 +553,6 @@ footer {
     column-gap: 1rem;
     padding: 5px;
 
-
     overflow: hidden;
     position: fixed;
     bottom: 0;
@@ -572,6 +571,6 @@ footer {
     flex-direction: column;
     text-align: center;
     margin-bottom: 20px;
-    margin-right:30px ;
+    margin-right: 30px;
   }
 }
